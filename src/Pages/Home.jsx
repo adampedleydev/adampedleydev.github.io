@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div>
-            <div className='bg-cover bg-[url("src/assets/background-cover.svg")]' style={{height: "120vh"}}>
+            <div  className='bg-cover' style={{height: "120vh", backgroundImage: `url(${Background})`}}>
                 <div className='relative overflow-hidden'>
                     <div className='columns-2'>
                         <p className='text-xl p-6 text-[#D9D9D9] font-bold font-["Open Sans"]'>adam pedley</p>
@@ -131,6 +131,7 @@ function Home() {
 
 export default Home;
 
+import Background from '/src/assets/background-cover.svg'
 import Astronaut from '/src/assets/astronaut.svg'
 import Project1 from '/src/assets/project_1.svg'
 import Project2 from '/src/assets/project_2.svg'
