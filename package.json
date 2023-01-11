@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "heroku-postbuild": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll-v2": "^2.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
+    "typed.js": "^2.0.12",
+    "typeit-react": "^2.6.0",
+    "typer-js": "^5.5.3",
+    "vite-plugin-svgr": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.6",
+    "vite-svg-loader": "^3.6.0"
+  }
+}

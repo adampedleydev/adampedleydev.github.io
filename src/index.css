@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #111111;
+}
+
+@font-face {
+    font-family: 'TTTricks-Light';
+    src: local('TT Tricks Regular'), local('TTTricks-Light'),
+        url('TTTricks-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTricks-Light.woff2') format('woff2'),
+        url('TTTricks-Light.woff') format('woff'),
+        url('TTTricks-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*body {*/
+/*    @apply*/
+/*    border-solid border-4 border-cyan-500*/
+/*}*/
+
+.skill-item {
+    @apply
+        bg-[#3D3E42] text-gray-100
+        text-xl font-bold
+        flex items-center content-center justify-center flex-wrap
+        break-words
+        rounded
+        mb-5
+        hover:scale-105
+        duration-150
+        cursor-pointer
+}
+
+.underline-item {
+    @apply
+        relative before:content-[''] before:absolute before:block before:w-full before:h-[5px]
+        before:bottom-0 before:left-0 before:bg-cyan-500
+        before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+        before:transition before:ease-in-out before:duration-300
+}
+
+.break {
+    flex-basis: 100%;
+  }
+
