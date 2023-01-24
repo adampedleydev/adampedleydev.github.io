@@ -12,7 +12,7 @@ function InteriorQuiz() {
             </div>
         </div>
 
-        <div className="mx-[50vh] mt-20">
+        <div className="sm:mx-[50vh] mx-[5vh] mt-20">
             <div className="flex">
                 <div className="text-white text-6xl font-[TTTricks-Light] text-transparent bg-clip-text bg-gradient-to-r from-[#a0e9ff] via-[#f093b0] to-[#edca85]">
                     Interior Quiz
